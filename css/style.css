@@ -1,0 +1,195 @@
+
+
+html body { 
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/carbon1.png);
+	position: relative;
+}
+
+
+h2 {
+	color: #FF4800;
+	margin-top: 40px;
+	text-align: center;
+}
+
+h3 {
+	color: #1AB299;
+	text-align: center;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.image {
+	border-radius: 50px;
+
+}
+.formatimage {
+	height: 400;
+	width: 500;
+}
+
+/*debut css partie slide*/
+
+.photo1{
+		height: 200;
+	width: 100;
+
+}
+
+.texteslide {
+	color : white;
+	font-size: 70px;
+}
+
+/*debut css partie casque TQ*/
+
+.article1 {
+
+	color: white;
+	font-size: 17px;
+	text-shadow: 1px 1px 1px #7A7A7A;
+}
+
+
+/*debut css partie A propos*/
+
+.article2 {
+	color: white;
+	font-size: 17px;
+	text-shadow: 1px 1px 1px #7A7A7A;
+}
+
+/*debut css partie DECOUVREZ NOTRE TECHNOLOGIE TQ*/
+
+
+.btn1{
+	border-radius: 80px;
+	background-image: url(../image/carbon1.png);
+}
+
+.bouttontexte{
+
+	color: #FF4800;
+	font-size: 20px;
+}
+
+
+.teleport {
+	border :solid;
+	color: #FF4800;
+	border-radius: 90px;
+	height: 400;
+	width: 600;
+}
+
+
+.card {
+	text-align: center;
+}
+
+
+.formatimg{
+	height: 300;
+	width: 370;
+}
+
+
+/*debut css partie VENEZ TESTEZ LE CASQUE TQ*/
+
+.fond {
+	background-image: url(../image/bureau.jpg);
+  	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #FF4800;
+	border-radius: 90px; margin-bottom: 10%;
+	}
+
+#CASQUETQ {
+	margin-top: 30px;
+}
+
+/*debut css partie Footer*/
+footer { 
+    display: block;
+    background-image: url(../image/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;border-radius: 90px;
+
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+.lien {
+	margin-left: 30%;
+	text-decoration: none;
+  	color: #2D241E;
+}
+
+
+  	
+
+.bloc {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+
+.map{ 
+	margin-top: 5px;
+	width : 50%; 
+	height: 100px;
+}
+
+/*debut css partie bouton retour vers le haut*/
+div#page {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 2em;
+	right: 0px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
+
+.back-to-top:hover {
+	text-decoration: none;
+}
+
+.back-to-top img {
+  	width: 60px;
+  	opacity: .2;
+  	filter: alpha(opacity=20);
+  	transition: all .4s ease-out;
+  	-o-transition: all .5s ease-out;
+  	-moz-transition: all .4s ease-out;
+  	-webkit-transition: all .4s ease-out;
+}
+
+.back-to-top img:hover {
+  	text-decoration: none;
+  	opacity: .9;
+}
